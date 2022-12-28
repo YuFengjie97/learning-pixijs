@@ -1,5 +1,5 @@
 <template>
-  <div class="viewCon" ref="pixiCon"></div>
+  <div class="pixiCon" ref="pixiCon"></div>
 </template>
 
 <script lang="ts" setup>
@@ -54,11 +54,3 @@ function setContainer() {
   container.pivot.y = container.height / 2
 }
 </script>
-
-<style lang="less" scoped>
-.viewCon {
-  height: 100%;
-  width: 100%;
-  // overflow: hidden;
-}
-</style>

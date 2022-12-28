@@ -15,6 +15,10 @@ const routes: Array<RouteRecordRaw> = [
         path: '01-container',
         component: () => import('@/views/chapter1-basic/01-container.vue'),
       },
+      {
+        path: '02-transparentBackground',
+        component: () => import('@/views/chapter1-basic/02-transparentBackground.vue'),
+      },
     ],
   },
 ]

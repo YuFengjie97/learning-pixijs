@@ -4,7 +4,9 @@
 <template>
   <div class="home">
     <h1>Basic</h1>
-    <RouterLink to="/chapter1/01-container">container</RouterLink>
+    <RouterLink to="/chapter1/01-container">01-container</RouterLink>
+    <RouterLink to="/chapter1/02-transparentBackground">02-transparentBackground</RouterLink>
+    
   </div>
   
 </template>
