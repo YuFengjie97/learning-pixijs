@@ -12,8 +12,8 @@ const routes: Array<RouteRecordRaw> = [
     path: '/chapter1/',
     children: [
       {
-        path: 'container',
-        component: () => import('@/views/chapter1-basic/container.vue'),
+        path: '01-container',
+        component: () => import('@/views/chapter1-basic/01-container.vue'),
       },
     ],
   },
